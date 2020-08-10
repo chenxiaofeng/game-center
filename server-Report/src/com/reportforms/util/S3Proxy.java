@@ -16,7 +16,7 @@ public class S3Proxy {
 	 
 	 public static void upload(InputStream inputStream,long length,String fileName,String folder) throws Exception {
 		 
-		  AWSCredentials awsCredentials = new BasicAWSCredentials("AKIAJEI6ITIVJDWKIBDQ","gEGo/XyI/WhlhH+I66YI2IRY++crnvr1hk7SQGDa");
+		  AWSCredentials awsCredentials = new BasicAWSCredentials("","");
 		  
 		  AmazonS3 s3 = new AmazonS3Client(awsCredentials);
 	      String bucket_name = "onetouch_store";
